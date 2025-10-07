@@ -1,0 +1,5 @@
+node_modules
+dist
+.env
+infra/postgres-data
+infra/mongo-data

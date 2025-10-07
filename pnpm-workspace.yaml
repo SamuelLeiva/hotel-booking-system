@@ -1,0 +1,4 @@
+# ledecimos a pnpm que trate cada carpeta dentro de /services y /shared como proyectos (subpaquetes).
+packages:
+  - 'services/*'
+  - 'shared/*'

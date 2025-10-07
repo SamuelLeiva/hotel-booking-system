@@ -1,0 +1,17 @@
+{
+  "name": "hotel-booking-system",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev:user": "pnpm --filter user-service start:dev",
+    "dev:room": "pnpm --filter room-service start:dev",
+    "dev:booking": "pnpm --filter booking-service start:dev",
+    "dev:logs": "pnpm --filter logs-service start:dev",
+    "dev:gateway": "pnpm --filter api-gateway start:dev",
+    "dev:all": "pnpm --parallel --recursive start:dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "ts-node": "^10.9.2"
+  }
+}
